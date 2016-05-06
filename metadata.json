@@ -1,0 +1,14 @@
+{
+  "name": "tkh-tkhlib",
+  "version": "0.1.0",
+  "author": "st01tkh",
+  "summary": "The library of useful functions",
+  "license": "Apache 2.0",
+  "source": "https://github.com/st01tkh/puppet-tkhlib.git",
+  "project_page": "https://github.com/st01tkh/puppet-tkhlib",
+  "issues_url": "https://github.com/st01tkh/puppet-tkhlib/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
