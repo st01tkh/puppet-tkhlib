@@ -1,6 +1,3 @@
-#!/usr/bin/env ruby
-#../tkhlib/lib/puppet/parser/functions/
-
 require 'rbconfig'
 
 def os
@@ -57,12 +54,6 @@ def find_files_in_dirs(path_ar, glob_pattern)
     end
     return found_ar
 end
-#path = ENV['PATH'].split(':')
-#puts path
-#get_dirs_from_path_env()
-#Dir.glob('*.rb').each do|f| puts f end
-found_ar = find_files_in_dirs(get_dirs_from_path_env(), '*.sh')
-puts found_ar
 
 module Puppet::Parser::Functions
   newfunction(:find_files_in_path_dirs, :type => :rvalue, :doc => <<-EOS
